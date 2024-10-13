@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvXP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XP: 0"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Level: 1"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click for XP"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnUpgrades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upgrades"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnPreferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preferences"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"/>
+
+</LinearLayout>
